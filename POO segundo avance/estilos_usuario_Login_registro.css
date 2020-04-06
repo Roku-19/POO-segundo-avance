@@ -1,0 +1,117 @@
+/*Estilos*/
+
+body{
+    font-family: arial, helvetica, sans-serif;
+    margin: 0;
+    background: url(img/comercio3.png);
+    background-size: cover;
+    background-attachment: fixed;
+    
+        
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+
+.regresar{
+    border: none;
+    width: 8%;
+    color: white;
+    font-size: 17px;
+    background: #cc0b0b;
+    padding: 8px 8px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 15px;
+    border: none ;
+    
+    
+}
+
+.formulario{
+
+    background: #fff;
+    margin-top: 100px;
+    padding: 2px;
+   
+}
+
+h1{
+    text-align: center;
+    color: #207a5f;
+    font-size: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="numero"]{
+    font-size: 17px;
+    width: 90%;
+    padding: 13px;
+    border: rgb(201, 47, 47);
+}
+
+.inputContenedor{
+    margin-bottom: 15px;
+    border: 1px solid rgb(38, 122, 76);
+    color: black;
+
+}
+
+.icon{
+    min-width: 41px;
+    text-align: center;
+    color: rgb(15, 122, 81);
+    border: none;
+}
+
+.boton{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #207a5f;
+    padding: 15px 25px;
+    margin-top: 5px ;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.boton:hover{
+    background: cadetblue;
+}
+
+p{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+
+.link:hover{
+    color: cadetblue;
+
+}
+
+@media(min-width:768px){
+    
+    .formulario
+    {
+        margin: auto;
+        width: 500px;
+        margin-top: 100px;
+        border-radius: 2%;
+    }
+}

@@ -1,0 +1,38 @@
+
+ul, ol{
+    list-style: none;
+    display: none;
+    float: left;
+}
+.nav li:hover > ul {
+    display: block;
+}
+ /*.nav3 li a{
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+ }
+
+ 
+ .nav3 li a:hover {
+    background-color: #434343;
+ }
+
+ .nav3 > li{
+    float: left;
+}
+
+.nav3 li ul{
+    display: none; /*desaparescan los menus*/
+    position: absolute;
+    /*min-width: 140px;
+}
+
+/*.nav3 li:hover > ul {
+    display: block;
+}*/
+
+
+ 

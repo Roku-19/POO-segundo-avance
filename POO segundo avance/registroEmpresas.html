@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro empresas</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="estilos_registro_empresas.css">
+</head>
+<body>
+       <a href="index.html"><button class="regresar" type="button"><i class="fas fa-arrow-circle-left"></i> Regresar</button></a>
+        
+    <form class= "formulario">
+        <h1>Registro empresas</h1>
+        <hr>
+         <h2> Datos generales de la empresa </h2> 
+        
+         <div class="contenedor">
+           <div class="inputContenedor">
+              <i class="far fa-user icon"></i>
+              <input type="text" placeholder="Nombre de la empresa">
+             </div>    
+             
+             <div class="inputContenedor">
+              <i class="far fa-envelope icon"></i>
+              <input type="email" placeholder="Correo electronico">
+             </div>    
+             
+             <div class="inputContenedor">
+               <i class="fas fa-key icon"></i>
+              <input type="password" placeholder="Contraseña">
+             </div>  
+
+             <div class="inputContenedor">
+            <i class="fas fa-phone icon"></i>
+              <input type="numero" placeholder="Telefono empresarial">
+             </div>  <br>
+               
+             
+             <h2> Descripcion de la empresa</h2>
+             <textarea placeholder = "Direccion" cols="70" rows="10">
+            
+          </textarea> <br><br>
+
+          <h2>Ubicacion geografica</h2>
+          <div class="inputContenedor">
+            <i class="fas fa-location-arrow icon"></i>
+                <input type="text" placeholder="Pais">
+               </div> 
+          
+          <div class="inputContenedor">
+            <i class="fas fa-location-arrow icon"></i>
+                <input type="text" placeholder="Direccion">
+               </div> 
+
+               <div class="inputContenedor">
+                <i class="fas fa-atlas icon"></i>
+                    <input type="text" placeholder="Latitud">
+              </div> 
+                  
+              <div class="inputContenedor">
+                <i class="fas fa-atlas icon"></i>
+                        <input type="text" placeholder="Longitud">
+               </div> <br>
+
+             
+             <input type="submit" value="Registrar" class="boton">
+             <p>Al registrarte aceptas nuestras condiciones de uso y politicas de privacidad</p>
+            <p>¿Ya tienes una cuenta? <a class= "link" href="loginEmpresas.html">Iniciar secion</a></p>
+            
+        </div>
+        
+    </form>
+</body>
+</html>
